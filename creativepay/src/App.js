@@ -2,7 +2,8 @@ import React, { Component } from 'react'
 import { NavLink, Route } from "react-router-dom"
 import Header from './compontents/Header/index.jsx'
 // import MainIndex from "./compontents/MainIndex/index.jsx"
-import  MainPersonCenter from './compontents/MainPersonCenter/index.jsx'
+// import MainPersonCenter from './compontents/MainPersonCenter/index.jsx'
+import MainCheckCenter from "./compontents/MainCheckCenter/index.jsx"
 import './App.css'
 
 export default class App extends Component {
@@ -11,7 +12,8 @@ export default class App extends Component {
       <div>
         <Header />
         {/* <MainIndex/>    */}
-        <MainPersonCenter/>
+        {/* <MainPersonCenter/> */}
+        <MainCheckCenter/>
       </div>
     )
   }

@@ -1,0 +1,35 @@
+.header {
+    height: 90px;
+    background-color: white;
+}
+.header ul {
+    list-style: none;
+}
+.header ul li {
+    float: left;
+    line-height: 90px;
+}
+.header ul li:nth-child(1){
+    font-size: 30px;
+    width:50%;
+    margin-left: 2%;
+}
+
+.header ul li:nth-child(2){
+    width: 15%;
+}
+.header ul li:nth-child(2){
+    width: 15%;
+}
+.header ul li:nth-child(3){
+    width: 15%;
+}
+.header ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    padding-bottom:10px ; 
+}
+.header ul li:nth-child(2) a  {
+    border-bottom:2px solid blue ;
+}

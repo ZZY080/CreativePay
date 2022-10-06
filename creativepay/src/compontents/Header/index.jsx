@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { NavLink} from "react-router-dom"
 
 import './index.css'
 
@@ -10,13 +11,15 @@ export default class index extends Component {
                 <ul>
                     <li>CreativePay</li>
                     <li>
-                        <a href="#">首页</a>
+                        <NavLink to="/index" activeClassName='active'>首页</NavLink>
                     </li>
                     <li>
-                        <a href="#">账单中心</a>
+                        <NavLink to="/checkcenter" activeClassName='active'>账单中心</NavLink>
+
                     </li>
                     <li>
-                        <a href="#">个人中心</a>
+                        <NavLink to="/personalcenter" activeClassName='active'>个人中心</NavLink>
+
                     </li>
                 </ul>
             </div>

@@ -30,6 +30,6 @@
     color: black;
     padding-bottom:10px ; 
 }
-.header ul li:nth-child(2) a  {
+.header ul li a:hover  {
     border-bottom:2px solid blue ;
 }
